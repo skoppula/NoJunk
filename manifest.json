@@ -14,7 +14,7 @@
   "content_scripts": [
     {
       "matches": [
-          "*://stackoverflow.com/questions/*", "*://*.stackexchange.com/questions/*"
+          "*://superuser.com/questions/*", "*://stackoverflow.com/questions/*", "*://*.stackexchange.com/questions/*"
       ],
       "js": ["stackoverflow-content.js"]
     },
